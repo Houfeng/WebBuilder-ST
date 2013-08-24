@@ -1,5 +1,17 @@
 {
-	"url": "https://github.com/Houfeng/WebBuilder-ST",
-	"version": "2013.8.24.1",
-	"description": "一个为Sublime Text2开发的JS、CSS压缩插件(需Mono或.NET环境)"
+	"schema_version": "2013.8.24.1",
+	"packages": [{
+		"name": "WebBuilder-ST",
+		"description": "一个为Sublime Text2开发的JS、CSS压缩插件(需Mono或.NET环境)",
+		"author": "Houfeng",
+		"homepage": "http://www.houfeng.net",
+		"last_modified": "2013.8.24.1",
+		"platforms": {
+			"*": [{
+				"version": "2013.8.24.1",
+				"url": "https://github.com/Houfeng/WebBuilder-ST",
+				"description": "一个为Sublime Text2开发的JS、CSS压缩插件(需Mono或.NET环境)"
+			}]
+		}
+	}]
 }
