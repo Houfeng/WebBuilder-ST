@@ -5,7 +5,7 @@
 		"details": "https://github.com/Houfeng/WebBuilder-ST",
 		"releases": [{
 			"platforms": ["osx", "windows"],
-			"details": "https://github.com/Houfeng/WebBuilder-ST"
+			"details": "https://github.com/Houfeng/WebBuilder-ST/tree/master"
 		}]
 	}]
 }
