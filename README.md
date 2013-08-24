@@ -7,7 +7,7 @@
 3. Linux (需要安装Mono 2.x或以上版本)
 
 ####常见问题:
-1. 如果使用过程中出现 "UnicodeEncodeError: 'ascii' codec can't encode characters" 的错误, 此问题可能是ST2的Bug, 请在ST安装目录找到 "sublime_plugin.py" ,在import之后所有其它代码之前添加如下两行:
+1. 如果使用过程中出现 "UnicodeEncodeError: 'ascii' codec can't encode characters" 的错误, 此问题可能是ST2的Bug, 请在ST安装目录找到 "sublime_plugin.py" ,在import之后其它代码之前添加如下两行:
 
 ```python
 	reload(sys)  
