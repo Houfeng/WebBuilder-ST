@@ -1,15 +1,22 @@
 {
-	"cmd": [
-		"mono",
-		"${packages}/WebBuilder/bin/WebBuilder.exe",
-		"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'mac','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
-	],
-	"selector": "source.js, source.css",
-	"windows": {
+	"osx": {
 		"cmd": [
-			"${packages}\\WebBuilder\\bin\\WebBuilder.exe",
-			"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'mac','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
+			"mono",
+			"${packages}/WebBuilder ST/bin/WebBuilder.exe",
+			"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'osx','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
 		]
 	},
-	"selector": "source.js, source.css"
+	"windows": {
+		"cmd": [
+			"${packages}\\WebBuilder ST\\bin\\WebBuilder.exe",
+			"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'windows','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
+		]
+	},
+	"linux": {
+		"cmd": [
+			"mono",
+			"${packages}/WebBuilder ST/bin/WebBuilder.exe",
+			"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'linux','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
+		]
+	}
 }
