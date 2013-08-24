@@ -1,0 +1,15 @@
+{
+	"cmd": [
+		"mono",
+		"${packages}/WebBuilder/bin/WebBuilder.exe",
+		"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'mac','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
+	],
+	"selector": "source.js, source.css",
+	"windows": {
+		"cmd": [
+			"${packages}\\WebBuilder\\bin\\WebBuilder.exe",
+			"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'mac','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
+		]
+	},
+	"selector": "source.js, source.css"
+}
