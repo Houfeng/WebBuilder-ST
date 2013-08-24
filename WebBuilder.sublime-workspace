@@ -616,8 +616,9 @@
 	},
 	"file_history":
 	[
-		"/Users/houfeng/Desktop/Dev/MyProjects/package_control_channel/repository/w.json",
 		"/Users/houfeng/Desktop/Dev/MyProjects/WebBuilder ST/WebBuilder.sublime-build",
+		"/Users/houfeng/Desktop/Dev/MyProjects/WebBuilder ST/README.md",
+		"/Users/houfeng/Desktop/Dev/MyProjects/package_control_channel/repository/w.json",
 		"/Users/houfeng/Library/Application Support/Sublime Text 2/Packages/WebBuilder ST/WebBuilder.sublime-build",
 		"/Users/houfeng/Desktop/Dev/MyProjects/mokit/mokit/ajax.js",
 		"/Users/houfeng/Desktop/Dev/MyProjects/mokit/mokit/app.js",
@@ -742,8 +743,7 @@
 		"/Users/houfeng/Desktop/dealer.plist",
 		"/Users/houfeng/Desktop/Dev/MyProjects/mokit/doc/Doc.md",
 		"/Users/houfeng/Desktop/Dev/MyProjects/mokit/mokit/styles/images/loader.gif",
-		"/Users/houfeng/Desktop/Dev/MyProjects/mokit/src/views/home.js",
-		"/Users/houfeng/Desktop/Dev/MyProjects/mokit/src/templates/home.html"
+		"/Users/houfeng/Desktop/Dev/MyProjects/mokit/src/views/home.js"
 	],
 	"find":
 	{
@@ -901,6 +901,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 220.0,
+	"side_bar_width": 260.0,
 	"status_bar_visible": true
 }
