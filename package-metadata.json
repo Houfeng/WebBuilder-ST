@@ -1,5 +1,5 @@
 {
-	"url": "https://github.com/leon/YUI-Compressor",
-	"version": "2012.10.11.07.16.35",
-	"description": "Sublime Text 2 YUI-Compressor plugin"
+	"url": "https://github.com/Houfeng/WebBuilder-ST",
+	"version": "2013.8.24.1",
+	"description": "一个为Sublime Text2开发的JS、CSS压缩插件(需Mono或.NET环境)"
 }
