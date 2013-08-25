@@ -1,5 +1,5 @@
 ####插件简介:
-一个为Sublime Text2开发的JS、CSS压缩插件(需Mono或.NET环境)
+一个为Sublime Text2而开发的JS+CSS批量压缩插件(需要Mono或.NET) 
 
 ####支持平台:
 1. Windows (需要安装.net framework 3.5或以上版本)
