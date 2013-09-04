@@ -3,20 +3,20 @@
 		"cmd": [
 			"mono",
 			"${packages}/WebBuilder ST/bin/WebBuilder.exe",
-			"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'osx','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
+			"{'inDir':'${file_path}','outDir':'${file_path}/../.build','platform':'osx','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
 		]
 	},
 	"windows": {
 		"cmd": [
 			"${packages}\\WebBuilder ST\\bin\\WebBuilder.exe",
-			"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'windows','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
+			"{'inDir':'${file_path}','outDir':'${file_path}\\..\\.build','platform':'windows','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
 		]
 	},
 	"linux": {
 		"cmd": [
 			"mono",
 			"${packages}/WebBuilder ST/bin/WebBuilder.exe",
-			"{'inDir':'${file_path}','outDir':'${file_path}_build','platform':'linux','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
+			"{'inDir':'${file_path}','outDir':'${file_path}/../.build','platform':'linux','optimize':true,'obfuscate':true,'removeComments':true,'addMark':true}"
 		]
 	}
 }
